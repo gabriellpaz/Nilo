@@ -81,27 +81,37 @@ if comeco.lower() == "vamos":
                     if falta_ação.lower() == "nada":
                         time.sleep(1)
                         print("Então você sabe o que fazer")
+                        print(f"\nAté logo, {nome}!")
+                        print("Foi bom conversar com você.")
                     elif falta_ação.lower() == "dinheiro" or falta_ação.lower() == "tempo":
                         time.sleep(1)
                         print(f"Realmente {nome}, entendo que isso pesa")
                         time.sleep(1)
                         print("Penso que então cabe entender que nem tudo controlamos")
+                        print(f"\nAté logo, {nome}!")
+                        print("Foi bom conversar com você.")
                     else:
                         time.sleep(1)
                         print(f"\n{nome}, me parece que você sabe o que precisa fazer")
                         time.sleep(1) 
                         print("minha sugestão é que você procure ajuda humana profissional")
+                        print(f"\nAté logo, {nome}!")
+                        print("Foi bom conversar com você.")
 
                 else:
-                    nao_fazer = input("\nEntão porque pensa em fazer isso? nãop")
+                    nao_fazer = input("\nEntão porque pensa em fazer isso? não")
                     if nao_fazer == "Não penso":
                         time.sleep(1)
                         print(f"Entendi {nome}, sugiro procurar ajuda humana")
+                        print(f"\nAté logo, {nome}!")
+                        print("Foi bom conversar com você.")
                     else:
                         time.sleep(1)
                         print(f"\n{nome}, me parece que você sabe o que precisa fazer")
                         time.sleep(1) 
                         print("minha sugestão é que você procure ajuda humana profissional")
+                        print(f"\nAté logo, {nome}!")
+                        print("Foi bom conversar com você.")
 
     else:
         time.sleep(1)
