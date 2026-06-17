@@ -15,6 +15,11 @@ if comeco.lower() == "vamos":
     time.sleep(1)
     idade = input("\nQual sua idade? ")
     print(f"\nVocê tem {idade} anos.")
+    if idade < 18:
+        print("Você ainda é menor de idade.")
+    else:
+        print("Você já é maior de idade.")
+        
     print("\nMe diga como você está")
     resposta = input("digite 'bem' ou 'mal': ")
     if resposta.lower() == "bem":
