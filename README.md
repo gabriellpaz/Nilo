@@ -10,7 +10,7 @@ Chatbot desenvolvido em Python para praticar lógica de programação e estrutur
 - Conversação básica
 - Pergunta sobre idade
 
-## Tecnologias
+## Tecnologia
 
 - Python 3
 
